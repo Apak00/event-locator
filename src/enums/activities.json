@@ -1,0 +1,510 @@
+{
+  "Message": "OK",
+  "Status": 1,
+  "Data": [
+    {
+      "Id": 166,
+      "ActivityName": "Masa Tenisi Turnuvası",
+      "StartDate": "2019-12-29T17:00:00",
+      "EndDate": "2019-12-29T18:00:00",
+      "EditedOn": "2019-08-30T15:31:05.942583",
+      "LastParticipationDate": "2019-12-29T16:55:00",
+      "Description": "<p>Ürün tanıtımı ve etkinliği</p>",
+      "MainImage": "7294fae2d79248eeb5bd8cf6fd846a541a3df3af.jpg",
+      "MainImageUrl": "activityassets/166/7294fae2d79248eeb5bd8cf6fd846a541a3df3af.jpg",
+      "IsForFree": true,
+      "GoogleMapsPlaceId": "ChIJSyEocgG3yhQRiXJ9t5BmcFU",
+      "Province": "İstanbul",
+      "City": "Beyoğlu",
+      "District": "Hüseyinağa",
+      "Address": "Demirören AVM İstiklal Mahallesi, İstiklal Cad. Demirören İstiklal No:50, Hüseyinağa, 34435 Beyoğlu/İstanbul, Türkiye",
+      "ActivitySports": [
+        {
+          "ActivityId": 166,
+          "SportId": 139,
+          "SportName": "Masa Tenisi"
+        }
+      ],
+      "Categories": [
+        {
+          "ActivityId": 166,
+          "ActivityCategoryId": 1,
+          "CategoryName": "Decathlon Etkinliği"
+        }
+      ],
+      "ActivityParticipants": [],
+      "ActivityLat": "41.0348959",
+      "ActivityLng": "28.98006929999997",
+      "Featured": false,
+      "OwnerUser": null,
+      "OwnerId": 0,
+      "ActivityType": 2,
+      "MaximumParticipants": 0,
+      "Price": 0,
+      "Intro": "Masa Tenisi Turnuvası",
+      "IntroText": "Masa Tenisi Turnuvası"
+    },
+    {
+      "Id": 112,
+      "ActivityName": "Ok Atma Tekniklerini Öğretme ve Yarışması - Aralık",
+      "StartDate": "2019-12-28T15:00:00",
+      "EndDate": "2019-12-28T16:00:00",
+      "EditedOn": "2019-06-19T12:25:37.561795",
+      "LastParticipationDate": "2019-12-28T15:00:00",
+      "Description": "Ok Atma Tekniklerini Öğretme ve Yarışması",
+      "MainImage": "b953980c2e77487bb4436a06405d176a44de5adc.jpg",
+      "MainImageUrl": "activityassets/112/b953980c2e77487bb4436a06405d176a44de5adc.jpg",
+      "IsForFree": true,
+      "GoogleMapsPlaceId": "ChIJx-tqsULcuxQR9K1LvFzNXXk",
+      "Province": "İzmir",
+      "City": "Balçova",
+      "District": "Bahçelerarası Mahallesi",
+      "Address": "Eğitim Mahallesi Mithatpaşa Caddesi Yanyolu, Bahçelerarası Mahallesi, EGE PARK BALCUVA FASHION AND, SHOPPING CENTER No:44, 35330 Balçova/İzmir, Turkey",
+      "ActivitySports": [
+        {
+          "ActivityId": 112,
+          "SportId": 180,
+          "SportName": "Okçuluk"
+        }
+      ],
+      "Categories": [
+        {
+          "ActivityId": 112,
+          "ActivityCategoryId": 1,
+          "CategoryName": "Decathlon Etkinliği"
+        }
+      ],
+      "ActivityParticipants": [],
+      "ActivityLat": "38.3949681",
+      "ActivityLng": "27.044112700000028",
+      "Featured": false,
+      "OwnerUser": null,
+      "OwnerId": 898338,
+      "ActivityType": 2,
+      "MaximumParticipants": 0,
+      "Price": 0,
+      "Intro": "Ok Atma Tekniklerini Öğretme ve Yarışmasına Davetlisiniz!",
+      "IntroText": "Ok Atma Tekniklerini Öğretme ve Yarışmasına Davetlisiniz!"
+    },
+    {
+      "Id": 165,
+      "ActivityName": "Futbol Top Sektirme",
+      "StartDate": "2019-12-22T17:00:00",
+      "EndDate": "2019-12-22T18:00:00",
+      "EditedOn": "2019-08-30T15:25:41.3851956",
+      "LastParticipationDate": "2019-12-22T16:55:00",
+      "Description": "<p>Ürün tanıtımı ve etkinlik.</p>",
+      "MainImage": "aa5fdf4013924395a9a5833e86bc897c59b94f0f.jpg",
+      "MainImageUrl": "activityassets/165/aa5fdf4013924395a9a5833e86bc897c59b94f0f.jpg",
+      "IsForFree": true,
+      "GoogleMapsPlaceId": "ChIJSyEocgG3yhQRiXJ9t5BmcFU",
+      "Province": "İstanbul",
+      "City": "Beyoğlu",
+      "District": "Hüseyinağa",
+      "Address": "Demirören AVM İstiklal Mahallesi, İstiklal Cad. Demirören İstiklal No:50, Hüseyinağa, 34435 Beyoğlu/İstanbul, Türkiye",
+      "ActivitySports": [
+        {
+          "ActivityId": 165,
+          "SportId": 81,
+          "SportName": "Futbol"
+        }
+      ],
+      "Categories": [
+        {
+          "ActivityId": 165,
+          "ActivityCategoryId": 1,
+          "CategoryName": "Decathlon Etkinliği"
+        }
+      ],
+      "ActivityParticipants": [],
+      "ActivityLat": "41.0348959",
+      "ActivityLng": "28.98006929999997",
+      "Featured": false,
+      "OwnerUser": null,
+      "OwnerId": 0,
+      "ActivityType": 2,
+      "MaximumParticipants": 0,
+      "Price": 0,
+      "Intro": "Futbol Top Sektirme",
+      "IntroText": "Futbol Top Sektirme"
+    },
+    {
+      "Id": 81,
+      "ActivityName": "Decathlon Koordinasyon Parkuru",
+      "StartDate": "2019-12-21T15:00:00",
+      "EndDate": "2019-12-21T16:00:00",
+      "EditedOn": "2019-10-10T11:03:25.1720883",
+      "LastParticipationDate": "2019-12-21T15:00:00",
+      "Description": "Decathlon Koordinasyon Parkuru",
+      "MainImage": "9306d9d6af6b4a3abd8d82f1614142f1f8de3652.jpg",
+      "MainImageUrl": "activityassets/81/9306d9d6af6b4a3abd8d82f1614142f1f8de3652.jpg",
+      "IsForFree": true,
+      "GoogleMapsPlaceId": "ChIJb-R7CZZO0xQRkB6COp9fjBc",
+      "Province": "Ankara",
+      "City": "Yenimahalle",
+      "District": "Gazi Mahallesi",
+      "Address": "ANKAmall AVM, Gazi Mahallesi, Mevlana Blv., 06330 Yenimahalle/Ankara, Turkey",
+      "ActivitySports": [
+        {
+          "ActivityId": 81,
+          "SportId": 109,
+          "SportName": "Fitness"
+        }
+      ],
+      "Categories": [
+        {
+          "ActivityId": 81,
+          "ActivityCategoryId": 1,
+          "CategoryName": "Decathlon Etkinliği"
+        }
+      ],
+      "ActivityParticipants": [],
+      "ActivityLat": "39.9519093",
+      "ActivityLng": "32.83077530000003",
+      "Featured": false,
+      "OwnerUser": null,
+      "OwnerId": 996529,
+      "ActivityType": 2,
+      "MaximumParticipants": 0,
+      "Price": 0,
+      "Intro": "Decathlon Koordinasyon Parkuru",
+      "IntroText": "Decathlon Koordinasyon Parkuru"
+    },
+    {
+      "Id": 111,
+      "ActivityName": "Badminton Yarışması",
+      "StartDate": "2019-12-21T15:00:00",
+      "EndDate": "2019-12-21T16:00:00",
+      "EditedOn": "2019-06-21T10:57:38.1449269",
+      "LastParticipationDate": "2019-12-21T15:00:00",
+      "Description": "Badminton Yarışması",
+      "MainImage": "7b9d759639714b2997ff5aad812a63097a1197ef.jpg",
+      "MainImageUrl": "activityassets/111/7b9d759639714b2997ff5aad812a63097a1197ef.jpg",
+      "IsForFree": true,
+      "GoogleMapsPlaceId": "ChIJx-tqsULcuxQR9K1LvFzNXXk",
+      "Province": "İzmir",
+      "City": "Balçova",
+      "District": "Bahçelerarası Mahallesi",
+      "Address": "Eğitim Mahallesi Mithatpaşa Caddesi Yanyolu, Bahçelerarası Mahallesi, EGE PARK BALCUVA FASHION AND, SHOPPING CENTER No:44, 35330 Balçova/İzmir, Turkey",
+      "ActivitySports": [
+        {
+          "ActivityId": 111,
+          "SportId": 132,
+          "SportName": "Badminton"
+        }
+      ],
+      "Categories": [
+        {
+          "ActivityId": 111,
+          "ActivityCategoryId": 1,
+          "CategoryName": "Decathlon Etkinliği"
+        }
+      ],
+      "ActivityParticipants": [],
+      "ActivityLat": "38.3949681",
+      "ActivityLng": "27.044112700000028",
+      "Featured": true,
+      "OwnerUser": null,
+      "OwnerId": 898338,
+      "ActivityType": 2,
+      "MaximumParticipants": 0,
+      "Price": 0,
+      "Intro": "Badminton Yarışmamıza Davetlisiniz!",
+      "IntroText": "Badminton Yarışmamıza Davetlisiniz!"
+    },
+    {
+      "Id": 164,
+      "ActivityName": "İp Atlama",
+      "StartDate": "2019-12-15T17:00:00",
+      "EndDate": "2019-12-15T18:00:00",
+      "EditedOn": "2019-08-30T15:22:37.8909731",
+      "LastParticipationDate": "2019-12-15T16:55:00",
+      "Description": "<p>Ürün tanıtımı ve etkinlik.</p>",
+      "MainImage": "3630bb74ff0347aca4dc0400f8c67b56ecc69598.jpg",
+      "MainImageUrl": "activityassets/164/3630bb74ff0347aca4dc0400f8c67b56ecc69598.jpg",
+      "IsForFree": true,
+      "GoogleMapsPlaceId": "ChIJSyEocgG3yhQRiXJ9t5BmcFU",
+      "Province": "İstanbul",
+      "City": "Beyoğlu",
+      "District": "Hüseyinağa",
+      "Address": "Demirören AVM İstiklal Mahallesi, İstiklal Cad. Demirören İstiklal No:50, Hüseyinağa, 34435 Beyoğlu/İstanbul, Türkiye",
+      "ActivitySports": [
+        {
+          "ActivityId": 164,
+          "SportId": 109,
+          "SportName": "Fitness"
+        }
+      ],
+      "Categories": [
+        {
+          "ActivityId": 164,
+          "ActivityCategoryId": 1,
+          "CategoryName": "Decathlon Etkinliği"
+        }
+      ],
+      "ActivityParticipants": [],
+      "ActivityLat": "41.0348959",
+      "ActivityLng": "28.98006929999997",
+      "Featured": false,
+      "OwnerUser": null,
+      "OwnerId": 0,
+      "ActivityType": 2,
+      "MaximumParticipants": 0,
+      "Price": 0,
+      "Intro": "İp Atlama",
+      "IntroText": "İp Atlama"
+    },
+    {
+      "Id": 80,
+      "ActivityName": "Rollnet İnovasyon Tanıtımı ve Masa tenisi kurallar",
+      "StartDate": "2019-12-15T16:00:00",
+      "EndDate": "2019-12-15T17:00:00",
+      "EditedOn": "2019-05-30T20:44:42.0790629",
+      "LastParticipationDate": "2019-12-15T16:00:00",
+      "Description": "Rollnet İnovasyon Tanıtımı ve Masa tenisi kuralları ile yarışma",
+      "MainImage": "d49b84e67e7542af9de533f175c5a7b6a8904ae3.jpg",
+      "MainImageUrl": "activityassets/80/d49b84e67e7542af9de533f175c5a7b6a8904ae3.jpg",
+      "IsForFree": true,
+      "GoogleMapsPlaceId": "ChIJb-R7CZZO0xQRkB6COp9fjBc",
+      "Province": "Ankara",
+      "City": "Yenimahalle",
+      "District": "Gazi Mahallesi",
+      "Address": "ANKAmall AVM, Gazi Mahallesi, Mevlana Blv., 06330 Yenimahalle/Ankara, Turkey",
+      "ActivitySports": [
+        {
+          "ActivityId": 80,
+          "SportId": 139,
+          "SportName": "Masa Tenisi"
+        }
+      ],
+      "Categories": [
+        {
+          "ActivityId": 80,
+          "ActivityCategoryId": 1,
+          "CategoryName": "Decathlon Etkinliği"
+        }
+      ],
+      "ActivityParticipants": [],
+      "ActivityLat": "39.9519093",
+      "ActivityLng": "32.83077530000003",
+      "Featured": true,
+      "OwnerUser": null,
+      "OwnerId": 996529,
+      "ActivityType": 2,
+      "MaximumParticipants": 0,
+      "Price": 0,
+      "Intro": "Masa Tenisi Ürünlerimizi Tanıyalım! ",
+      "IntroText": "Masa Tenisi Ürünlerimizi Tanıyalım! "
+    },
+    {
+      "Id": 110,
+      "ActivityName": "Basket Atma Yarışması",
+      "StartDate": "2019-12-15T15:00:00",
+      "EndDate": "2019-12-15T16:00:00",
+      "EditedOn": "2019-05-30T20:49:10.9681525",
+      "LastParticipationDate": "2019-12-15T15:00:00",
+      "Description": "Basket Atma Yarışması🏀",
+      "MainImage": "9174baecb8df4fc39f231992a4e42f1449d7d61b.jpg",
+      "MainImageUrl": "activityassets/110/9174baecb8df4fc39f231992a4e42f1449d7d61b.jpg",
+      "IsForFree": true,
+      "GoogleMapsPlaceId": "ChIJx-tqsULcuxQR9K1LvFzNXXk",
+      "Province": "İzmir",
+      "City": "Balçova",
+      "District": "Bahçelerarası Mahallesi",
+      "Address": "Eğitim Mahallesi Mithatpaşa Caddesi Yanyolu, Bahçelerarası Mahallesi, EGE PARK BALCUVA FASHION AND, SHOPPING CENTER No:44, 35330 Balçova/İzmir, Turkey",
+      "ActivitySports": [
+        {
+          "ActivityId": 110,
+          "SportId": 78,
+          "SportName": "Basketbol"
+        }
+      ],
+      "Categories": [
+        {
+          "ActivityId": 110,
+          "ActivityCategoryId": 1,
+          "CategoryName": "Decathlon Etkinliği"
+        }
+      ],
+      "ActivityParticipants": [],
+      "ActivityLat": "38.3949681",
+      "ActivityLng": "27.044112700000028",
+      "Featured": false,
+      "OwnerUser": null,
+      "OwnerId": 898338,
+      "ActivityType": 2,
+      "MaximumParticipants": 0,
+      "Price": 0,
+      "Intro": "Basket Atma Yarışmamıza Davetlisiniz!",
+      "IntroText": "Basket Atma Yarışmamıza Davetlisiniz!"
+    },
+    {
+      "Id": 163,
+      "ActivityName": "Hızlı Bisiklet Sürme",
+      "StartDate": "2019-12-08T17:00:00",
+      "EndDate": "2019-12-08T18:00:00",
+      "EditedOn": "2019-08-30T15:19:21.9198285",
+      "LastParticipationDate": "2019-12-08T16:55:00",
+      "Description": "<p>Ürün tanıtımı ve etkinlik.</p>",
+      "MainImage": "1f03711ff84443c99177815974ac9a5f6796f5af.jpg",
+      "MainImageUrl": "activityassets/163/1f03711ff84443c99177815974ac9a5f6796f5af.jpg",
+      "IsForFree": true,
+      "GoogleMapsPlaceId": "ChIJSyEocgG3yhQRiXJ9t5BmcFU",
+      "Province": "İstanbul",
+      "City": "Beyoğlu",
+      "District": "Hüseyinağa",
+      "Address": "Demirören AVM İstiklal Mahallesi, İstiklal Cad. Demirören İstiklal No:50, Hüseyinağa, 34435 Beyoğlu/İstanbul, Türkiye",
+      "ActivitySports": [
+        {
+          "ActivityId": 163,
+          "SportId": 283,
+          "SportName": "City Bike"
+        }
+      ],
+      "Categories": [
+        {
+          "ActivityId": 163,
+          "ActivityCategoryId": 1,
+          "CategoryName": "Decathlon Etkinliği"
+        }
+      ],
+      "ActivityParticipants": [],
+      "ActivityLat": "41.0348959",
+      "ActivityLng": "28.98006929999997",
+      "Featured": false,
+      "OwnerUser": null,
+      "OwnerId": 0,
+      "ActivityType": 2,
+      "MaximumParticipants": 0,
+      "Price": 0,
+      "Intro": "Hızlı Bisiklet Sürme",
+      "IntroText": "Hızlı Bisiklet Sürme"
+    },
+    {
+      "Id": 79,
+      "ActivityName": "Oxeloboard Tanıtım ve Uygulama",
+      "StartDate": "2019-12-07T15:00:00",
+      "EndDate": "2019-12-07T16:00:00",
+      "EditedOn": "2019-05-30T20:50:49.7312689",
+      "LastParticipationDate": "2019-12-07T15:00:00",
+      "Description": "Oxeloboard Tanıtım ve Uygulama",
+      "MainImage": "997ba97b8df540ccab793179432f1c0175921a19.jpg",
+      "MainImageUrl": "activityassets/79/997ba97b8df540ccab793179432f1c0175921a19.jpg",
+      "IsForFree": true,
+      "GoogleMapsPlaceId": "ChIJb-R7CZZO0xQRkB6COp9fjBc",
+      "Province": "Ankara",
+      "City": "Yenimahalle",
+      "District": "Gazi Mahallesi",
+      "Address": "ANKAmall AVM, Gazi Mahallesi, Mevlana Blv., 06330 Yenimahalle/Ankara, Turkey",
+      "ActivitySports": [
+        {
+          "ActivityId": 79,
+          "SportId": 171,
+          "SportName": "Kaykay"
+        }
+      ],
+      "Categories": [
+        {
+          "ActivityId": 79,
+          "ActivityCategoryId": 1,
+          "CategoryName": "Decathlon Etkinliği"
+        }
+      ],
+      "ActivityParticipants": [],
+      "ActivityLat": "39.9519093",
+      "ActivityLng": "32.83077530000003",
+      "Featured": true,
+      "OwnerUser": null,
+      "OwnerId": 996529,
+      "ActivityType": 2,
+      "MaximumParticipants": 0,
+      "Price": 0,
+      "Intro": "Oxeloboard'u Birlikte Tanıyalım ve Kullanalım!",
+      "IntroText": "Oxeloboard'u Birlikte Tanıyalım ve Kullanalım!"
+    },
+    {
+      "Id": 109,
+      "ActivityName": "Sandalye Kapma Yarışması",
+      "StartDate": "2019-12-07T15:00:00",
+      "EndDate": "2019-12-07T16:00:00",
+      "EditedOn": "2019-05-30T20:54:19.4932383",
+      "LastParticipationDate": "2019-12-07T15:00:00",
+      "Description": "Sandalye Kapma Yarışması",
+      "MainImage": "62a2eb481d3347e6b26d4293fd0407b8f9d82b8e.jpg",
+      "MainImageUrl": "activityassets/109/62a2eb481d3347e6b26d4293fd0407b8f9d82b8e.jpg",
+      "IsForFree": true,
+      "GoogleMapsPlaceId": "ChIJx-tqsULcuxQR9K1LvFzNXXk",
+      "Province": "İzmir",
+      "City": "Balçova",
+      "District": "Bahçelerarası Mahallesi",
+      "Address": "Eğitim Mahallesi Mithatpaşa Caddesi Yanyolu, Bahçelerarası Mahallesi, EGE PARK BALCUVA FASHION AND, SHOPPING CENTER No:44, 35330 Balçova/İzmir, Turkey",
+      "ActivitySports": [
+        {
+          "ActivityId": 109,
+          "SportId": 150,
+          "SportName": "Kampçılık"
+        }
+      ],
+      "Categories": [
+        {
+          "ActivityId": 109,
+          "ActivityCategoryId": 1,
+          "CategoryName": "Decathlon Etkinliği"
+        }
+      ],
+      "ActivityParticipants": [],
+      "ActivityLat": "38.3949681",
+      "ActivityLng": "27.044112700000028",
+      "Featured": true,
+      "OwnerUser": null,
+      "OwnerId": 898338,
+      "ActivityType": 2,
+      "MaximumParticipants": 0,
+      "Price": 0,
+      "Intro": "Aralık Ayında Yapılacak Olan Kamp Sandalyesi Kapma Etkinliğimize Davetlisiniz :)",
+      "IntroText": "Aralık Ayında Yapılacak Olan Kamp Sandalyesi Kapma Etkinliğimize Davetlisiniz :)"
+    },
+    {
+      "Id": 162,
+      "ActivityName": "Ok Atma",
+      "StartDate": "2019-12-01T17:00:00",
+      "EndDate": "2019-12-01T18:00:00",
+      "EditedOn": "2019-09-26T11:21:54.3358204",
+      "LastParticipationDate": "2019-12-01T16:55:00",
+      "Description": "<p>Ürün tanıtımı ve etkinlik.</p>",
+      "MainImage": "0e48c6a019d2462694c7300251f070c01be686f9.jpg",
+      "MainImageUrl": "activityassets/162/0e48c6a019d2462694c7300251f070c01be686f9.jpg",
+      "IsForFree": true,
+      "GoogleMapsPlaceId": "ChIJSyEocgG3yhQRiXJ9t5BmcFU",
+      "Province": "İstanbul",
+      "City": "Beyoğlu",
+      "District": "Hüseyinağa",
+      "Address": "Demirören AVM İstiklal Mahallesi, İstiklal Cad. Demirören İstiklal No:50, Hüseyinağa, 34435 Beyoğlu/İstanbul, Türkiye",
+      "ActivitySports": [
+        {
+          "ActivityId": 162,
+          "SportId": 180,
+          "SportName": "Okçuluk"
+        }
+      ],
+      "Categories": [
+        {
+          "ActivityId": 162,
+          "ActivityCategoryId": 1,
+          "CategoryName": "Decathlon Etkinliği"
+        }
+      ],
+      "ActivityParticipants": [],
+      "ActivityLat": "41.0348959",
+      "ActivityLng": "28.98006929999997",
+      "Featured": false,
+      "OwnerUser": null,
+      "OwnerId": 0,
+      "ActivityType": 2,
+      "MaximumParticipants": 0,
+      "Price": 0,
+      "Intro": "Ok Atma",
+      "IntroText": "Ok Atma"
+    }
+  ]
+}
