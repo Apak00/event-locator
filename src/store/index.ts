@@ -9,6 +9,10 @@ export type GlobalState = ActivityLocatorReducerState;
 
 // We could add saga thunk or some other middleware to handle async actions here, leaving it for now cause we wont need in this locator app.
 // We could also use combineReducers for multiple reducers.
-const store = createStore(activityLocatorReducer);
+const store = createStore(
+  activityLocatorReducer,
+  (window as any).__REDUX_DEVTOOLS_EXTENSION__ &&
+    (window as any).__REDUX_DEVTOOLS_EXTENSION__()
+);
 
 export default store;

@@ -1,17 +1,21 @@
 import { actionTypes, SetLocationAction } from "./actions";
 import * as activities from "../enums/activities.json";
-import { Activities } from "./interfaces";
+import { Activities, MapState } from "./interfaces";
 
 export interface ActivityLocatorReducerState {
   activities: Activities;
-  altitude: string;
-  longtitude: string;
+  mapState: MapState;
 }
-
+export const mapInitialState = {
+  center: {
+    lat: 40,
+    lng: 29
+  },
+  zoom: 6
+};
 const initialState: ActivityLocatorReducerState = {
   activities: activities.Data,
-  altitude: "",
-  longtitude: ""
+  mapState: mapInitialState
 };
 
 export function activityLocatorReducer(
@@ -22,8 +26,7 @@ export function activityLocatorReducer(
     case actionTypes.SET_LOCATION:
       return {
         ...state,
-        altitude: action.altitude,
-        longtitude: action.longtitude
+        mapState: action
       };
     default:
       return state;

@@ -13,7 +13,7 @@ const Main: FC<MainProps> = props => {
       <TopBar />
       <ActivityMapContainer>
         <SideBar activities={props.activities} />
-        <Map />
+        <Map activities={props.activities} />
       </ActivityMapContainer>
     </MainContainer>
   );
@@ -27,7 +27,7 @@ const Main: FC<MainProps> = props => {
 const mapStateToProps: MapStateToProps<MainStateProps, any, GlobalState> = (
   state: GlobalState
 ): MainStateProps => ({
-  // We should use a selector here
+  // We could use a selector library like 'reselect' here
   activities: state.activities
 });
 

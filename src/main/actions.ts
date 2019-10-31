@@ -1,20 +1,20 @@
+import { MapState } from "./interfaces";
+
 export enum actionTypes {
   SET_LOCATION = "[Activity Locator] Set Location"
 }
 
-export interface SetLocationAction {
+export interface SetLocationAction extends MapState {
   type: actionTypes.SET_LOCATION;
-  altitude: string;
-  longtitude: string;
 }
 
 export function setLocationActionCreator({
-  altitude,
-  longtitude
-}: SetLocationAction): SetLocationAction {
+  center: { lat, lng },
+  zoom
+}: MapState): SetLocationAction {
   return {
     type: actionTypes.SET_LOCATION,
-    altitude,
-    longtitude
+    center: { lat, lng },
+    zoom
   };
 }

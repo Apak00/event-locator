@@ -5,8 +5,8 @@ import ActivityCard from "./activity-card";
 
 const SideBar = (props: SideBarProps) => (
   <SideBarContainer>
-    {props.activities.map(item => (
-      <ActivityCard activityInfo={item} />
+    {props.activities.map(activity => (
+      <ActivityCard key={activity.Id} activityInfo={activity} />
     ))}
   </SideBarContainer>
 );

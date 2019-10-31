@@ -8,7 +8,7 @@ export const Icon: (props: IconProps) => JSX.Element = ({
   width,
   ...props
 }: IconProps): JSX.Element => {
-  const iconSrc: string = name && require(`../../images/${name}`);
+  const iconSrc: string = name && require(`../../images/${name}.svg`);
   const customHeightWidth: CustomHeightWidth = {
     height,
     width
