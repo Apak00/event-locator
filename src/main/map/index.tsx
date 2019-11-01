@@ -11,7 +11,7 @@ import { mapInitialState } from "../reducer";
 const GOOGLE_MAP_API_KEY = "AIzaSyA1HmoPAKyV_jbEZc5iAGyZVJ9YLGoYUQY";
 
 const createMap = (ref: RefObject<HTMLDivElement>) => {
-  return new window.google.maps.Map(ref.current, {
+  return new google.maps.Map(ref.current, {
     styles: googleMapStyles.styles as any,
     disableDefaultUI: true,
     ...mapInitialState
@@ -19,7 +19,7 @@ const createMap = (ref: RefObject<HTMLDivElement>) => {
 };
 
 const createMarker = (googleMap: any, position: GoogleMapPosition) => {
-  return new window.google.maps.Marker({
+  return new google.maps.Marker({
     position,
     map: googleMap,
     icon: require("../../images/activity-location-marker.svg")
@@ -44,7 +44,7 @@ const Map: FC<MapProps> = ({
 
     const googleMapScript = document.createElement("script");
     googleMapScript.src = `https://maps.googleapis.com/maps/api/js?key=${GOOGLE_MAP_API_KEY}`;
-    window.document.body.appendChild(googleMapScript);
+    document.body.appendChild(googleMapScript);
 
     googleMapScript.addEventListener("load", () => {
       const googleMap = createMap(googleMapRef);
@@ -61,7 +61,15 @@ const Map: FC<MapProps> = ({
           lat: parseFloat(activity.ActivityLat),
           lng: parseFloat(activity.ActivityLng)
         };
-        createMarker(googleMap, markerPosition);
+
+        const marker = createMarker(googleMap, markerPosition);
+
+        const infowindow = new google.maps.InfoWindow({
+          content: activity.ActivityName.toUpperCase()
+        });
+        marker.addListener("click", function() {
+          infowindow.open(googleMap, marker);
+        });
       });
     }
   }, [activities, googleMap]);
@@ -76,29 +84,25 @@ const Map: FC<MapProps> = ({
   }, [center, zoom]);
 
   useEffect(() => {
-    // This Effect controls the way AcitivityInfo shown on the map and listener on marker
+    // This Effect controls the way AcitivityInfo shown on the map and also controls click listener on marker
 
     if (googleMap && currentActivity) {
-      let currentAcitvityPosition = {
+      const currentAcitvityPosition = {
         lat: parseFloat(currentActivity.ActivityLat),
         lng: parseFloat(currentActivity.ActivityLng)
       };
-      var contentString = document
+      const contentString = document
         .getElementsByName("currentActivity")[0]
         .cloneNode(true);
 
-      var infowindow = new window.google.maps.InfoWindow({
+      const infowindow = new google.maps.InfoWindow({
         content: contentString as Node,
         maxWidth: 300
       });
-      let marker = createMarker(googleMap, currentAcitvityPosition);
+      const marker = createMarker(googleMap, currentAcitvityPosition);
       infowindow.open(googleMap, marker);
-      let markerListener = marker.addListener("click", function() {
-        infowindow.open(googleMap, marker);
-      });
       return () => {
         infowindow.close();
-        google.maps.event.removeListener(markerListener);
       };
     }
   }, [googleMap, currentActivity]);
