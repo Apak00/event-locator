@@ -4,12 +4,12 @@ export interface MapProps extends MapStateProps {
   activities: Activities;
 }
 export interface MapStateProps {
-  center: GoogleMapCenter;
+  center: GoogleMapPosition;
   zoom: number;
   currentActivity: Activity;
 }
 
-export interface GoogleMapCenter {
+export interface GoogleMapPosition {
   lat: number;
   lng: number;
 }

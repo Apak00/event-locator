@@ -1,7 +1,11 @@
-import styled from "styled-components";
+import styled, { StyledComponentBase } from "styled-components";
 import React from "react";
 
-export const ActivityCardContainer = styled.div`
+export const ActivityCardContainer: StyledComponentBase<
+  any,
+  any,
+  any
+> = styled.div`
   background-color: #fff;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
   padding: 10px;

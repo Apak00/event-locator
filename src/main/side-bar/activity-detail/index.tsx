@@ -12,7 +12,7 @@ const ActivityDetail: FC<ActivityDetailProps> = ({
   ...props
 }: ActivityDetailProps) => {
   return (
-    <ActivityCardContainer>
+    <ActivityCardContainer name={"currentActivity"}>
       <ImageContainer
         url={`https://platform.decathlon.com.tr:3161/${currentActivity.MainImageUrl}`}
       />
