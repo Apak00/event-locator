@@ -9,7 +9,7 @@ export const TopBarContainer = styled.div`
   background-color: rgb(246, 246, 246);
   overflow: hidden;
   button {
-    background-color: black;
+    background-color: rgb(35, 35, 35);
     transform: skewX(-10deg) translateX(10px);
   }
 `;

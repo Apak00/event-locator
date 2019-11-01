@@ -2,6 +2,7 @@ import * as activities from "../enums/activities.json";
 
 export interface MainStateProps {
   activities: Activities;
+  currentActivity?: Activity;
 }
 
 export interface MainProps extends MainStateProps {}

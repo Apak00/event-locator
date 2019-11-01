@@ -1,14 +1,18 @@
 import React, { FC, useState } from "react";
 import { TopBarProps, TopBarDispatchProps } from "./interfaces";
 import { TopBarContainer, IconContainer } from "./styled";
-import { Button, Icon } from "../../components";
+import { Button, Icon, Text } from "../../components";
 import { connect } from "react-redux";
 import { Dispatch, bindActionCreators } from "redux";
-import { setLocationActionCreator } from "../actions";
+import {
+  setLocationActionCreator,
+  setCurrentActivityActionCreator
+} from "../actions";
 import { mapInitialState } from "../reducer";
 import { ACTIVITY_TAB, STORE_TAB } from "./constants";
 
-const resetLocation = (setLocation: any) => () => {
+const resetLocation = (setLocation: any, setCurrentActivity: any) => () => {
+  setCurrentActivity(undefined);
   setLocation(mapInitialState);
 };
 
@@ -18,6 +22,7 @@ const handleTabChange = (tab: string, setSelectedTab: any) => () => {
 
 const TopBar: FC<TopBarProps> = ({
   setLocation,
+  setCurrentActivity,
   ...props
 }: TopBarProps): JSX.Element => {
   const [selectedTab, setSelectedTab]: [
@@ -43,22 +48,26 @@ const TopBar: FC<TopBarProps> = ({
           />
         </div>
       </IconContainer>
-      <Button width="25%" onClick={resetLocation(setLocation)}>
-        SPOR BUL
+      <Button
+        width="18.75%"
+        onClick={resetLocation(setLocation, setCurrentActivity)}
+      >
+        <Text fontSize={18}>SPOR BUL</Text>
       </Button>
     </TopBarContainer>
   );
 };
 
 /**
- * Store Props that are bounded with TopBar
+ * Store Dispatch Props that are bounded with TopBar
  */
 const mapDispatchToProps: (dispatch: Dispatch) => TopBarDispatchProps = (
   dispatch: Dispatch
 ): TopBarDispatchProps =>
   bindActionCreators(
     {
-      setLocation: setLocationActionCreator
+      setLocation: setLocationActionCreator,
+      setCurrentActivity: setCurrentActivityActionCreator
     },
     dispatch
   );

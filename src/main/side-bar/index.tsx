@@ -1,13 +1,21 @@
-import React from "react";
+import React, { FC } from "react";
 import { SideBarProps } from "./interfaces";
 import { SideBarContainer } from "./styled";
 import ActivityCard from "./activity-card";
+import ActivityDetail from "./activity-detail";
 
-const SideBar = (props: SideBarProps) => (
+const SideBar: FC<SideBarProps> = ({
+  activities,
+  currentActivity
+}: SideBarProps) => (
   <SideBarContainer>
-    {props.activities.map(activity => (
-      <ActivityCard key={activity.Id} activityInfo={activity} />
-    ))}
+    {currentActivity ? (
+      <ActivityDetail currentActivity={currentActivity} />
+    ) : (
+      activities.map(activity => (
+        <ActivityCard key={activity.Id} activityInfo={activity} />
+      ))
+    )}
   </SideBarContainer>
 );
 

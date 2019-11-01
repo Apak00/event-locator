@@ -1,4 +1,4 @@
-import React from "react";
+import React, { FC } from "react";
 import { ActivityCardProps, ActivityCardDispatchProps } from "./interfaces";
 import {
   ActivityCardContainer,
@@ -8,16 +8,20 @@ import {
 import { Text, Button } from "../../../components";
 import { connect } from "react-redux";
 import { Dispatch, bindActionCreators } from "redux";
-import { setLocationActionCreator } from "../../actions";
+import {
+  setLocationActionCreator,
+  setCurrentActivityActionCreator
+} from "../../actions";
 import { MapState } from "../../interfaces";
 
-const changeLocation = (newMapState: MapState, setLocation: any) => () => {
+const changeLocation = (newMapState: MapState, setLocation: any) => {
   setLocation(newMapState);
 };
 
-const ActivityCard = ({
+const ActivityCard: FC<ActivityCardProps> = ({
   activityInfo,
   setLocation,
+  setCurrentActivity,
   ...props
 }: ActivityCardProps) => {
   const locationOfActivity: MapState = {
@@ -26,6 +30,10 @@ const ActivityCard = ({
       lng: parseFloat(activityInfo.ActivityLng)
     },
     zoom: 16
+  };
+  const handleDetailClick = () => {
+    setCurrentActivity(activityInfo);
+    changeLocation(locationOfActivity, setLocation);
   };
   return (
     <ActivityCardContainer>
@@ -43,7 +51,7 @@ const ActivityCard = ({
           {activityInfo.Address}
         </Text>
       </ActivityDetails>
-      <Button onClick={changeLocation(locationOfActivity, setLocation)}>
+      <Button onClick={handleDetailClick}>
         <Text
           css={{
             transform: "skewX(10deg)",
@@ -59,14 +67,15 @@ const ActivityCard = ({
 };
 
 /**
- * Store Props that are bounded with ActivityCard
+ * Store Action Props that are bounded with ActivityCard
  */
 const mapDispatchToProps: (dispatch: Dispatch) => ActivityCardDispatchProps = (
   dispatch: Dispatch
 ): ActivityCardDispatchProps =>
   bindActionCreators(
     {
-      setLocation: setLocationActionCreator
+      setLocation: setLocationActionCreator,
+      setCurrentActivity: setCurrentActivityActionCreator
     },
     dispatch
   );
