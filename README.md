@@ -13,4 +13,9 @@
 ```yarn start```
 
 
+#### You can also access the app here:
+
+https://event-locator-42822.firebaseapp.com
+
+
 
