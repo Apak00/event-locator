@@ -14,7 +14,7 @@ const createMap = (ref: RefObject<HTMLDivElement>) => {
   return new google.maps.Map(ref.current, {
     styles: googleMapStyles.styles as any,
     disableDefaultUI: true,
-    ...mapInitialState
+    ...mapInitialState,
   });
 };
 
@@ -22,7 +22,7 @@ const createMarker = (googleMap: any, position: GoogleMapPosition) => {
   return new google.maps.Marker({
     position,
     map: googleMap,
-    icon: require("../../images/activity-location-marker.svg")
+    icon: require("../../images/activity-location-marker.svg"),
   });
 };
 
@@ -56,18 +56,18 @@ const Map: FC<MapProps> = ({
     // This Effect creates markers on the map according to acitivities that is in redux store
 
     if (googleMap && activities) {
-      activities.forEach(activity => {
+      activities.forEach((activity) => {
         const markerPosition: any = {
           lat: parseFloat(activity.ActivityLat),
-          lng: parseFloat(activity.ActivityLng)
+          lng: parseFloat(activity.ActivityLng),
         };
 
         const marker = createMarker(googleMap, markerPosition);
 
         const infowindow = new google.maps.InfoWindow({
-          content: activity.ActivityName.toUpperCase()
+          content: activity.ActivityName.toUpperCase(),
         });
-        marker.addListener("click", function() {
+        marker.addListener("click", function () {
           infowindow.open(googleMap, marker);
         });
       });
@@ -89,7 +89,7 @@ const Map: FC<MapProps> = ({
     if (googleMap && currentActivity) {
       const currentAcitvityPosition = {
         lat: parseFloat(currentActivity.ActivityLat),
-        lng: parseFloat(currentActivity.ActivityLng)
+        lng: parseFloat(currentActivity.ActivityLng),
       };
       const contentString = document
         .getElementsByName("currentActivity")[0]
@@ -97,7 +97,7 @@ const Map: FC<MapProps> = ({
 
       const infowindow = new google.maps.InfoWindow({
         content: contentString as Node,
-        maxWidth: 300
+        maxWidth: 300,
       });
       const marker = createMarker(googleMap, currentAcitvityPosition);
       infowindow.open(googleMap, marker);
@@ -107,7 +107,7 @@ const Map: FC<MapProps> = ({
     }
   }, [googleMap, currentActivity]);
 
-  return <MapContainer id="google-map" ref={googleMapRef} />;
+  return <MapContainer id='google-map' ref={googleMapRef} />;
 };
 
 /**
@@ -120,6 +120,6 @@ const mapStateToProps: MapStateToProps<MapStateProps, any, GlobalState> = (
 ): any => ({
   center: state.mapState.center,
   zoom: state.mapState.zoom,
-  currentActivity: state.currentActivity
+  currentActivity: state.currentActivity,
 });
 export default connect(mapStateToProps)(Map);
